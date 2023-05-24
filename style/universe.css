@@ -1,0 +1,11 @@
+@import url(../style.css);
+
+body {
+  background-image: url(../assets/universe.png);
+  transition: background-image 500ms ease;
+}
+ 
+.content {
+   margin-top: 10rem;
+   margin-left: 6rem;
+}

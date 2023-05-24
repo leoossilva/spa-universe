@@ -1,0 +1,21 @@
+@import url(../style.css);
+
+body {
+  background-image: url(../assets/home.png);
+  transition: background-image 400ms ease;
+}
+
+nav a:nth-child(2) {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: white ;
+  border-bottom: 1px solid #ffffff;
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 17.2rem;
+  align-items: center;
+  gap: 2.4rem;
+  animation: topdown 700ms 350ms backwards;
+}
